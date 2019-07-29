@@ -11,6 +11,7 @@ public class Calculadora extends javax.swing.JFrame {
         initComponents();
      
     }
+    //Declaração de Variáveis
     
     Double valor1, valor2;
     OperacoesBasicas op = new OperacoesBasicas();
@@ -276,7 +277,7 @@ public class Calculadora extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//Funcionalidade aos botões
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
         cpTela.setText(cpTela.getText() + "7");
     }//GEN-LAST:event_btn7ActionPerformed
@@ -370,7 +371,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void btnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDividirActionPerformed
         this.valor1 = Double.parseDouble(cpTela.getText());
         cpTela.setText("");
-        this.operacoes = "divivdir";
+        this.operacoes = "dividir";
     }//GEN-LAST:event_btnDividirActionPerformed
 
     private void btnDeletarTudoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeletarTudoActionPerformed
